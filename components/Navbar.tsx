@@ -142,7 +142,7 @@ const Navbar = () => {
             >
               <i
                 onClick={() => setShowMenu(false)}
-                className="ri-close-line text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4"
+                className="ri-close-line text-4xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-8"
               ></i>
               <div className="flex flex-col items-center gap-7">
                 <ul className="flex flex-col gap-7">
@@ -222,7 +222,7 @@ const Navbar = () => {
                     Resume
                   </motion.button>
                 </a>
-                <div className="flex gap-4">
+                <div className="flex gap-5">
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
@@ -231,7 +231,7 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className="w-10 h-10 bg-bodyColor border-[1px] border-zinc-700 hover:text-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center  cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <i className="ri-github-line"></i>
+                      <i className="ri-github-line text-2xl"></i>
                     </span>
                   </motion.a>
                   <motion.a
@@ -242,7 +242,7 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className="w-10 h-10 bg-bodyColor border-[1px] border-zinc-700 hover:text-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <i className="ri-facebook-fill"></i>
+                      <i className="ri-facebook-fill text-2xl"></i>
                     </span>
                   </motion.a>
                   <motion.a
@@ -253,7 +253,7 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className="w-10 h-10 bg-bodyColor border-[1px] border-zinc-700 hover:text-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <i className="ri-linkedin-box-fill"></i>
+                      <i className="ri-linkedin-box-fill text-2xl"></i>
                     </span>
                   </motion.a>
                   <motion.a
@@ -264,7 +264,7 @@ const Navbar = () => {
                     target="_blank"
                   >
                     <span className="w-10 h-10 bg-bodyColor border-[1px] border-zinc-700 hover:text-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                      <i className="ri-instagram-line"></i>
+                      <i className="ri-instagram-line text-2xl"></i>
                     </span>
                   </motion.a>
                 </div>
